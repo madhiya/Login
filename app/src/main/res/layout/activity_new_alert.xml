@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAlert"
+    android:orientation="vertical"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="CHOOSE COMMODITY"
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="3dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp">
+
+            <Button
+                android:id="@+id/gold24"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="#FF5722"
+                android:text="Gold 24k"
+                android:textColor="#F7F8FA"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/gold22"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#FDFAFA"
+                android:text="Gold 22k"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/silver"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="#FDFAFA"
+                android:text="Silver"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="CHOOSE TRANSACTION"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="3dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="3dp">
+
+                <Button
+                    android:id="@+id/sell"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FF5722"
+                    android:text="SELL"
+                    android:textColor="#F7F8FA"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/buy"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="#FDFAFA"
+                    android:text="BUY"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="RATE"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="You will be notifed for the rate that you have setted with threshold of 20"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <Button
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:text="CONFIRM"
+                android:background="#FF5722"
+                android:textColor="#F7F8FA"
+                android:textSize="23dp"
+                android:id="@+id/btnConfirm" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

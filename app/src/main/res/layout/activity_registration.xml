@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical"
+    android:background="#9DE2DC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALCHEMY"
+        android:layout_gravity="top"
+        android:layout_marginLeft="115dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#8D8D91"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="150dp"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="320dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/tvLogin"
+        android:textSize="16dp"
+        android:text="Already Registered? Login here!"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

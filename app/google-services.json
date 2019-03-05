@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "320235779642",
+    "firebase_url": "https://alchemy-f8bbe.firebaseio.com",
+    "project_id": "alchemy-f8bbe",
+    "storage_bucket": "alchemy-f8bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320235779642:android:7738fe742be9f442",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320235779642-msccvkaof2gtk7qu2uc70st6vcihuau8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.login",
+            "certificate_hash": "0b803a0a8697c3ef64092d3eec763397fd9ae506"
+          }
+        },
+        {
+          "client_id": "320235779642-b3ic5pm5bemrsedg8t269a06u87pc91v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6HMhysBjswLk_aWOYOd1Br1g4-PhMA3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320235779642-b3ic5pm5bemrsedg8t269a06u87pc91v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
