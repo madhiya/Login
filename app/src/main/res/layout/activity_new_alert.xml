@@ -142,16 +142,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            
+
             <Button
+                android:id="@+id/btnConfirm"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="90dp"
-                android:text="CONFIRM"
                 android:background="#FF5722"
+                android:text="CONFIRM"
                 android:textColor="#F7F8FA"
-                android:textSize="23dp"
-                android:id="@+id/btnConfirm" />
+                android:textSize="23dp" />
 
         </LinearLayout>
 
